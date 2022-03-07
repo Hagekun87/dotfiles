@@ -1,0 +1,34 @@
+#  Configuración de Alias
+
+
+
+
+# Terminal
+alias q="exit"
+alias c="clear"
+alias ls="ls -a"
+alias esc="source ~/.zshrc; clear"
+
+# Navigation
+alias desk="cd ~/Desktop"
+alias notes="cd ~/.notes"
+alias wiki="nvim ~/.notes/index.wiki"
+alias doc="cd ~/Documents"
+alias v="nvim"
+alias vi="nvim"
+alias home="cd ~"
+alias recetas="cd ~/Library/Mobile\ Documents/iCloud~com~conradstoll~Grocery/Documents/Recipes"
+alias scriptss="cd ~/.configFiles/.scripts"
+
+# Config files
+alias aliases="nvim ~/.configFiles/.alias"
+alias coc="nvim ~/.configFiles/nvim/coc-settings.json"
+alias config="nvim ~/.configFiles/.zshrc"
+alias initt="nvim ~/.configFiles/nvim/init.vim"
+alias plug="nvim ~/.configFiles/nvim/plugged/plugins.vim"
+alias kuote="nvim ~/.configFiles/.scripts/quotes"
+
+# Programs
+alias vim="nvim"
+alias bl="buku -p"
+alias b="buku --suggest"

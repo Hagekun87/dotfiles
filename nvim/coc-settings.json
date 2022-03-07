@@ -1,0 +1,37 @@
+{
+
+// COC GENERAL SETTINGS
+  "suggest.triggerAfterInsertEnter": false,
+
+// PREFS GENERALES
+	"explorer.quitOnOpen": true,
+	"explorer.file.reveal.auto": true,
+	"explorer.width": 30,
+	"explorer.buffer.root.template": "[icon & 1] Buffers",
+	"explorer.previewAction.onHover": "labeling",
+	"explorer.file.root.template": "[icon & 1] Working in ([root])",
+
+// COC PRETTIER
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown"],
+
+// ICONOS
+	"explorer.icon.source": "vim-devicons",
+	"explorer.icon.enableNerdfont": true,
+
+// ICONOS PERSONALIZADOS
+	"explorer.file.column.clip.cut": "",
+	"explorer.file.column.clip.copy": "",
+	"explorer.git.icon.status.modified": "⏼",
+	"explorer.git.icon.status.added": "",
+	"explorer.git.icon.status.untracked": "⭘",
+	"explorer.git.icon.status.mixed": "⚠",
+
+// HIDDEN FILES
+	"explorer.file.showHiddenFiles": false,
+	"explorer.file.hiddenRules": {
+		"extensions": ["o","a","obj","pyc"],
+		"filenames": ["\\.DS_STORE|","\\.zcompdump+"],
+		"patternMatches": ["^\\.git$","^\\.zcompdump+","^\\.CFUser+"]
+	}
+
+}
